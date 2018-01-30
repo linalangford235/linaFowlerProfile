@@ -1,0 +1,207 @@
+/*Color Palette
+#F9E7E7 - LIGHT PINK
+#DED6D6 - LIGHT GRAY
+#D2CBCB - MEDIUM GRAY
+#ADA0A6 - DARK GRAY
+#7D938A - GREEN
+---------------------------*/
+
+/* Global styles
+--------------------*/
+.line-space {
+    line-height: 5px;
+}
+
+.btn {
+    text-decoration: none;
+    background: #DED6D6;
+    color: #7D938A;
+    padding: 10px;
+    display: inline-block;
+}
+
+.line-space-letter {
+    line-height: 30px;
+}
+
+h3 {
+    padding-bottom: 10px;
+}
+p + h3 {
+    margin-top: 30px;
+}
+html {
+    box-sizing:border-box;
+}
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+    body {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+a {
+    color: #F9E7E7;
+}
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+   font-family: 'Expletus Sans', cursive;
+   font-weight: 200;
+   margin: 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h3 {
+    margin: 0;
+}
+
+h4 {
+    margin-top: 10px;
+    font-size: .75em;
+}
+h5 {
+    font-size: 1em;
+    margin: 0;
+    font-family: 'Expletus Sans', cursive;
+   font-weight: 200;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: hidden;
+    
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+
+/* Header and Footer
+--------------------*/
+header, footer {
+    background: #7D938A;
+    color: #DED6D6;
+}
+
+
+/* header styles */
+header h1, header h2 {
+    color: rgb(255, 255, 255);
+}
+header {
+    padding-top: 50px;
+    position: relative;
+}
+
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/*footer styles */
+
+footer {
+    text-align: center;
+
+}
+
+.contact a {
+    margin: 10px;
+}
+
+/* Navigation
+--------------------------*/
+
+nav {
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    line-height: 20px;
+   
+
+}
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+     color: #7D938A;
+     font-family: 'News Cycle', sans-serif;
+}
+/*Work Experience
+--------------------*/
+.work-exp {
+    padding-bottom: 20px;
+}
+.work {
+    background: linear-gradient(rgba(249, 231, 231, 0.8),rgba(249, 231, 231, 0.5)),
+                url(../images/melinda-pack-233282.jpg) no-repeat fixed;
+    background-size: cover;
+
+}
+h3 ~ p {
+    margin: 0;
+}
+
+.job-description {
+    margin-bottom: 25px;
+}
+
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
+h3 ~ p {
+    margin: 0;
+}
+
+
+
+/*Education
+---------------------*/
+.education {
+    background: #DED6D6;
+}
+
+/* Media Queries
+-----------------------*/
+@media (min-width: 900px) {
+.col-narrow {
+    width: 30%;
+    float: left;
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 100px;
+ }
+}
+@media (max-width: 899px) {
+    header {
+        text-align: center;
+    }
+    .profile-img {
+        width: 200px;
+    }
+}
