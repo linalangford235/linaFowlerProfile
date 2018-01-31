@@ -18,7 +18,7 @@ a {
   color: #ffffff;
 }
 a:hover {
-  color: #6633ff;
+  color: #ff57aa;
 }
 
 /* Section Styles */
@@ -49,12 +49,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: #31c6e0;
+  color: #ff57aa;
 }
 
 header {
   text-align: center;
-  background: url(images\colorSpoons.jpg);
+  background: transparent url("images/colorSpoons2.jpg") no-repeat;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -69,6 +69,8 @@ header .profile-image {
   height: 150px;
   border-radius: 50%;
   transition: all .5s;
+  
+
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
@@ -81,10 +83,7 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
-.location {
-  background-color: #222;
-  color: yellow;
-}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -106,14 +105,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #31c6e0;
+  background: #5ac1ca;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #f16831;
+  background: #ff57aa;
 }
 
 footer {
@@ -202,5 +201,5 @@ a.social:hover {
 }
 
 .resume-link {
-  color: #f16831;
+  color: #5ac1ca;
 }
