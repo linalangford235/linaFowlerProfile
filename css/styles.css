@@ -9,7 +9,11 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: black;
-  background: #f7f5f0;
+  background: rgb(255, 255, 255);
+}
+
+.container {
+  text-align: center;
 }
 /* Link Styles */
 
@@ -30,6 +34,7 @@ a:hover {
   padding: 10px;
   position: fixed;
   text-align: center;
+  color: white;
 }
 .nav {
   display: flex;
@@ -93,6 +98,12 @@ header .profile-image:hover {
   border-color: #ff57aa;
 }
 
+/*Skills Section */
+
+.skills-decript {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
 
 footer {
   width: 100%;
