@@ -15,7 +15,7 @@
 .btn {
     text-decoration: none;
     background: #DED6D6;
-    color: #7D938A;
+    color: #087dae;
     padding: 10px;
     display: inline-block;
 }
@@ -95,7 +95,7 @@ h5 {
 /* Header and Footer
 --------------------*/
 header, footer {
-    background: #7D938A;
+    background: #087dae;
     color: rgb(255, 255, 255);
 }
 /* header styles */
@@ -141,7 +141,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
-     color: #7D938A;
+     color: #087dae;
      font-family: 'News Cycle', sans-serif;
 }
 /*Work Experience
@@ -150,9 +150,7 @@ nav a {
     padding-bottom: 20px;
 }
 .work {
-    background: linear-gradient(rgba(249, 231, 231, 0.8),rgba(249, 231, 231, 0.5)),
-                url(../images/melinda-pack-233282.jpg) no-repeat fixed;
-    background-size: cover;
+    background-color: #f7f5f0;
 
 }
 h3 ~ p {

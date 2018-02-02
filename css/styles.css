@@ -8,7 +8,7 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: white;;
+  color: black;
   background: #f7f5f0;
 }
 /* Link Styles */
@@ -54,7 +54,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: transparent url("images/colorSpoons2.jpg") no-repeat;
+  background: transparent url("images/web-Small-Jelly.jpg") no-repeat;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -64,31 +64,28 @@ header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 50px;
-  width: 175px;
-  height: 175px;
+  margin-top: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
-.tag {
-  background-color: #efefef;
-  color: black;
-  padding: 10px;
-  border-radius: 5px;
-  display: table;
-  margin: 10px auto;
-  font-size: 2em;
-} 
+
+.under-logo {
+  font-size: 20px;
+  margin-top: 50px;
+  color: #f7f5f0;
+}
 
 .card {
-  margin: 30px;
+  margin-top: -100px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 750px;
   text-align: left;
-  background: black;
+  background: #f7f5f0;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
 }
@@ -96,23 +93,6 @@ header .profile-image:hover {
   border-color: #ff57aa;
 }
 
-ul.skills {
-  padding: 0;
-  text-align: center;
-}
-
-.skills li {
-  border-radius: 6px;
-  display: inline-block;
-  background: #5ac1ca;
-  color: white;
-  padding: 5px 10px;
-  margin: 2px;
-}
-
-.skills li:nth-child(odd) {
-  background: #ff57aa;
-}
 
 footer {
   width: 100%;
@@ -171,7 +151,7 @@ a.social:hover {
   }
 
   header {
-    min-height: 450px;
+    min-height: 1000px;
   }
 
   .nav {
@@ -201,5 +181,5 @@ a.social:hover {
 }
 
 .resume-link {
-  color: #5ac1ca;
+  color: #ff57aa;
 }
