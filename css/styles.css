@@ -59,7 +59,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: transparent url("images/web-Small-Jelly.jpg") no-repeat;
+  background: transparent url("../images/web-Small-Jelly.jpg") no-repeat;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -143,13 +143,13 @@ a.social {
   transition: all .25s;
 }
 a.insta {
-  background-image: url(images/instagram.svg);
+  background-image: url(../images/instagram.svg);
 }
 a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(../images/linkedin.svg);
 }
 a.mail {
-  background-image: url(images/mail.svg);
+  background-image: url(../images/mail.svg);
 }
 a.social:hover {
   opacity: 1;
